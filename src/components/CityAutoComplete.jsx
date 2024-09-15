@@ -21,8 +21,8 @@ function CityAutoComplete() {
   }, []);
   return (
     <>
-      <InputSelector cities={cities} />
       <InputLabel cities={cities} />
+      <InputSelector cities={cities} />
     </>
   );
 }

@@ -4,6 +4,14 @@
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   font-size: 1.1rem;
+  border-radius: 0.5rem;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.781) 0%,
+    rgba(255, 255, 255, 0.523) 100%
+  );
+  box-shadow: 0 0 16px 0 rgba(41, 36, 36, 0);
+  padding: 2rem 2.5rem;
 }
 .input input {
   position: relative;
@@ -31,7 +39,7 @@
   right: 0;
   color: #aaa9a9;
   padding: 0 12px 2px 12px;
-  margin: 10px 0;
+  margin: 2.5rem;
   z-index: 5;
 }
 .input span {
